@@ -1,0 +1,18 @@
+h1{
+    font-size: 8rem;
+    color: #4ECCA3;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 10px black;
+    t
+
+    
+}
+
+.Dice{
+    visibility:hidden;
+}
+
+body{
+    background-color: #393E46;
+}
