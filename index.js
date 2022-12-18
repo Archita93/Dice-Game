@@ -24,9 +24,24 @@ function changeImage(image){
         document.getElementsByClassName(image)[0].setAttribute("src","images/dice6.png")
         console.log("it is five");
     }
+    return randomNumber;
     
 }
 
+function changeh1(random1,random2){
+    if(random1>random2){
+        document.querySelector("h1").innerHTML="Player 1 Wins!";
+    }
+    else if(random2>random1){
+        document.querySelector("h1").innerHTML="Player 2 Wins!";
+    }
+    else{
+        document.querySelector("h1").innerHTML="Draw!";
+    }
 
-changeImage("image1");
-changeImage("image2");
+}
+
+
+var number1  = changeImage("image1");
+var number2 = changeImage("image2");
+changeh1(number1,number2);
